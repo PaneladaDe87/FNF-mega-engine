@@ -487,12 +487,12 @@ class TitleState extends MusicBeatState
 					FlxG.sound.playMusic(Paths.music('freakyMenu'), 0);
 					FlxG.sound.music.fadeIn(4, 0, 0.7);
 				case 2:
-					createCoolText('Friday Night Funkin by');
-					createCoolText(['ninjamuffin99', 'phantomArcade', 'kawaisprite', 'evilsk8er']);
+					createCoolText('original Friday Night Funkin by');
+					addMoreText(['ninjamuffin99', 'phantomArcade', 'kawaisprite', 'evilsk8er']);
 				case 4:
 					deleteCoolText();
 
-					addMoreText('PaneladaDe87', 15);
+					createCoolText('PaneladaDe87', 15);
 					addMoreText('present');
 					
 				// credTextShit.text += '\npresent...';
@@ -533,7 +533,7 @@ class TitleState extends MusicBeatState
 				case 15:
 				{
 					addMoreText('Night');
-				}
+			        }
 				case 16:
 				{
 					addMoreText('Funkin');
