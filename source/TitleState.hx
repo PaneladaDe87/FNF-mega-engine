@@ -537,6 +537,7 @@ class TitleState extends MusicBeatState
 
 				case 17:
 					skipIntro();
+			        }
 			}
 		}
 	}
