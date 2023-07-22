@@ -488,7 +488,7 @@ class TitleState extends MusicBeatState
 					FlxG.sound.music.fadeIn(4, 0, 0.7);
 				case 2:
 					createCoolText('original Friday Night Funkin by');
-					addMoreText(['ninjamuffin99', 'phantomArcade', 'kawaisprite', 'evilsk8er']);
+					addMoreText('the funkin crew');
 				case 4:
 					deleteCoolText();
 
@@ -527,21 +527,13 @@ class TitleState extends MusicBeatState
 				// credTextShit.text = "Friday";
 				// credTextShit.screenCenter();
 				case 14:
-				{
 					addMoreText('Friday');
-				}
 				case 15:
-				{
 					addMoreText('Night');
-			        }
 				case 16:
-				{
 					addMoreText('Funkin');
-				}
 				case 17:
-				{
 					skipIntro();
-				}
 			}
 		}
 	}
